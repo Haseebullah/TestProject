@@ -41,5 +41,7 @@ int main()
 
 	Test<<<gridblock,threadsperblock>>>(array_d, size);
 	cudaDeviceSynchronize();
+	
+	//This file has been edit
 
 }
